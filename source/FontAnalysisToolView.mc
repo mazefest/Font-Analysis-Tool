@@ -1,14 +1,21 @@
+using Toybox.System as Sys;
 using Toybox.WatchUi;
+using Toybox.Graphics as Gfx;
 
+var fontBook;
+
+enum {fontSize, descent, devDesc, devDescDiff, save, reset, print}
 class FontAnalysisToolView extends WatchUi.View {
-
+    var focus;
+    var focusValue;
     function initialize() {
-        View.initialize();
+		View.initialize();
+        fontBook = new FontBook();
+    	focus = true;
+    	focusValue = fontSize;
     }
 
-    // Load your resources here
-    function onLayout(dc) {
-        setLayout(Rez.Layouts.MainLayout(dc));
+    // Update the view
     function onUpdate(dc) {
 		View.onUpdate(dc);
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE);
