@@ -451,7 +451,7 @@
         <entry arg="true" endPc="268440141" name="dc" stackId="1" startPc="268439971"/>
         <entry arg="true" endPc="268440194" name="dc" stackId="1" startPc="268440141"/>
         <entry endPc="268441351" name="partNumber" stackId="1" startPc="268440228"/>
-        <entry endPc="268441695" name="rez_cmp_local_text_1913152281" stackId="2" startPc="268441364"/>
+        <entry endPc="268441695" name="rez_cmp_local_text_1938492637" stackId="2" startPc="268441364"/>
         <entry endPc="268441695" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268441364"/>
         <entry arg="true" endPc="268441696" name="dc" stackId="1" startPc="268441352"/>
     </localVars>
