@@ -1,15 +1,18 @@
 using Toybox.WatchUi;
 
 class FontAnalysisToolDelegate extends WatchUi.BehaviorDelegate {
-
-    function initialize() {
+	var view;
+	var focusItemCount;
+    function initialize(view) {
         BehaviorDelegate.initialize();
+        self.view = view;
+		focusItemCount = 6;
     }
 
     function onMenu() {
-        WatchUi.pushView(new Rez.Menus.MainMenu(), new FontAnalysisToolMenuDelegate(), WatchUi.SLIDE_UP);
         return true;
     }
+    
     function onSelect() {
    		switch(view.focusValue) {
    			case save:
@@ -27,6 +30,13 @@ class FontAnalysisToolDelegate extends WatchUi.BehaviorDelegate {
    		
 		WatchUi.requestUpdate();
     }
+	
+	function onBack() {
+		view.focus = false;
+		WatchUi.requestUpdate();
+		return true;
+	}
+	
 	function onNextPage() {
 	
 		if (view.focusValue == devDesc && view.focus) {
@@ -39,6 +49,7 @@ class FontAnalysisToolDelegate extends WatchUi.BehaviorDelegate {
 		
 		WatchUi.requestUpdate();
 	}
+	
 	function onPreviousPage() {
 		
 		if (view.focusValue == devDesc && view.focus) {
@@ -52,6 +63,7 @@ class FontAnalysisToolDelegate extends WatchUi.BehaviorDelegate {
 		
 		WatchUi.requestUpdate();
 	}
+	
 	function changeValue(value) {
 		switch (view.focusValue) {
 			case fontSize:
