@@ -1,6 +1,14 @@
 using Toybox.System as Sys;
 
 class FontBook {
+	function calculateY(dc) {
+		var mDescent = descent;
+		if (devDesc) {
+			mDescent -= dc.getFontDescent(fontSize);
+		} 
+		
+		return mDescent;
+	}
 	function reset() {
 		fontSize = 0;
 		testText = ["TEST WORD", 888];
