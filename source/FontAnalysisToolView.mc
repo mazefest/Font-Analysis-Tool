@@ -4,7 +4,7 @@ using Toybox.Graphics as Gfx;
 
 var fontBook;
 
-enum {fontSize, descent, devDesc, devDescDiff, save, reset, print}
+enum {fontSize, descent, devDesc, devDescDiff, save, reset, print, line}
 class FontAnalysisToolView extends WatchUi.View {
     var focus;
     var focusValue;
@@ -24,6 +24,8 @@ class FontAnalysisToolView extends WatchUi.View {
 		var referenceLine = dc.getHeight() / 2;
        	
        	dc.drawLine(0,dc.getHeight()/2,400,dc.getHeight()/2);
+		drawLineInterface(dc);	
+       	
        	 
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
         dc.drawText(
@@ -33,7 +35,6 @@ class FontAnalysisToolView extends WatchUi.View {
         	fontBook.getText(),
         	Gfx.TEXT_JUSTIFY_CENTER
 		);
-		
 		drawControlBar(dc);
 		fontBook.writeData();	
 		
@@ -47,6 +48,7 @@ class FontAnalysisToolView extends WatchUi.View {
 		drawSave(dc);
 		drawReset(dc);
 		drawPrint(dc);
+		drawLine(dc);
     }
     
     function drawFontSizeController(dc) {
@@ -126,7 +128,27 @@ class FontAnalysisToolView extends WatchUi.View {
         	Gfx.TEXT_JUSTIFY_CENTER
 		); 
    	}
-
+   	
+   	function drawLine(dc) {
+		configControllerColor(dc, line); 
+		dc.drawText(
+    		dc.getWidth() * .5,
+    		dc.getHeight() * .1 + (dc.getFontHeight(0) * 3),
+    		0,
+    		"Line",
+        	Gfx.TEXT_JUSTIFY_CENTER
+		); 
+   	}
+   	
+   	function drawLineInterface(dc) {
+	   if (focusValue == line && focus) {
+	   	Sys.println("hre");
+		   var refLine = dc.getHeight() / 2;
+		   dc.drawLine(0, (refLine + fontBook.height), 400, (refLine + fontBook.height));
+	   	Sys.println("hre" + (refLine + fontBook.height));
+	   }
+   	}
+    
     function configControllerColor(dc, controller) {
     	switch(controller) {
     		case focusValue:
