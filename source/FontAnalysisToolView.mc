@@ -142,10 +142,8 @@ class FontAnalysisToolView extends WatchUi.View {
    	
    	function drawLineInterface(dc) {
 	   if (focusValue == line && focus) {
-	   	Sys.println("hre");
 		   var refLine = dc.getHeight() / 2;
 		   dc.drawLine(0, (refLine + fontBook.height), 400, (refLine + fontBook.height));
-	   	Sys.println("hre" + (refLine + fontBook.height));
 	   }
    	}
     
