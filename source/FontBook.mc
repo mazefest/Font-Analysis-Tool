@@ -95,7 +95,6 @@ class FontBook {
 		descent = 0;
 		adjustment = 0;
 		devDesc = false;
-		Sys.println("Saved Value");
 		
 	}
 	
