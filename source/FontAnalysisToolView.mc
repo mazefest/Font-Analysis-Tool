@@ -9,6 +9,27 @@ class FontAnalysisToolView extends WatchUi.View {
     // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.MainLayout(dc));
+    function onUpdate(dc) {
+		View.onUpdate(dc);
+        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE);
+		dc.clear();
+		
+		var referenceLine = dc.getHeight() / 2;
+       	
+       	dc.drawLine(0,dc.getHeight()/2,400,dc.getHeight()/2);
+       	 
+        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+        dc.drawText(
+        	dc.getWidth() / 2,
+        	referenceLine + fontBook.calculateY(dc),
+        	fontBook.fontSize,
+        	fontBook.getText(),
+        	Gfx.TEXT_JUSTIFY_CENTER
+		);
+		
+		drawControlBar(dc);
+		fontBook.writeData();	
+		
     }
 
     // Called when this View is brought to the foreground. Restore
