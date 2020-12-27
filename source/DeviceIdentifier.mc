@@ -1,6 +1,6 @@
 using Toybox.System as Sys;
 
-enum {fr245m, fr645m, fr745, fr945, F5,	Fenix5X, Fenix5xPlus, Fenix5sPlus, Fenix6xPro, Fenix6sPro, MARQAthlete, MARQAviator, MARQCaptain, MARQDriver, MARQExpedition, MARQAdventurer, MARQCommander, LegacyHeroCaptainMarvel, LegacyFirstAvenger, LegacySagaDarthVader, LegacySagaRey, Venu, VenuD, VenuSQM, VivoActive3D, Vivoactive3M, Vivoactive3MLTE, Vivoactive4, Vivoactive4s, D2Charlie, D2Delta, D2DeltaPX, D2DeltaS, DescentMK1, DescentMK2}		
+enum {fr245m, fr645m, fr745, fr945, F5,	Fenix5X, Fenix5xPlus, Fenix5sPlus, Fenix6Pro, Fenix6xPro, Fenix6sPro, MARQAthlete, MARQAviator, MARQCaptain, MARQDriver, MARQExpedition, MARQAdventurer, MARQCommander, LegacyHeroCaptainMarvel, LegacyFirstAvenger, LegacySagaDarthVader, LegacySagaRey, Venu, VenuD, VenuSQM, VivoActive3D, Vivoactive3M, Vivoactive3MLTE, Vivoactive4, Vivoactive4s, D2Charlie, D2Delta, D2DeltaPX, D2DeltaS, DescentMK1, DescentMK2}		
 
 
 function getDevice() {
@@ -39,7 +39,11 @@ function getDevice() {
 		case "006-B2900-00": 
 			return Fenix5sPlus;  
 			break;
-
+			
+		case "006-B3290-00":
+			return Fenix6Pro;
+			break;
+			
 		case "006-B3291-00": 
 			return Fenix6xPro;	 
 			break;
@@ -147,6 +151,10 @@ function getDevice() {
 		case "006-B3258-00":
 			return DescentMK2;	
 			break;
+		default:
+			Sys.println("--->> " + partNumber);
+			return 0;
+		
 	}
 }
 
@@ -159,7 +167,8 @@ var deviceNames = [
 "F5",	 
 "Fenix 5X",
 "Fenix 5x Plus",
-"Fenix 5s Plus",	  
+"Fenix 5s Plus",
+"Fenix 6 Pro",	  
 "Fenix 6x Pro", 
 "Fenix 6s Pro",
 "MARQ Athlete",
