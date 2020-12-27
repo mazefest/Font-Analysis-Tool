@@ -9,8 +9,10 @@ class FontBook {
 	var devDesc;
 	
 	var descent;
+	var height;
 	
 	var fontDescentStore;
+	var fontHeightStore;
 	function initialize() {
 		fontSize = 0;
 		testText = ["TEST WORD", 888];
@@ -19,6 +21,8 @@ class FontBook {
 		adjustment = 0;
 		devDesc = false;
 		fontDescentStore = [0,0,0,0,0,0,0,0,0];
+		fontHeightStore = [0,0,0,0,0,0,0,0,0]; 
+		height = 70;
 	}
 	
 	function changeFont(value) {
@@ -40,6 +44,10 @@ class FontBook {
 	function changeDeviceDescent() {
 		devDesc = !devDesc;
 	}	
+	
+	function changeHeight(value) {
+		height += value;
+	}
 	
 	function calculateY(dc) {
 		var mDescent = descent;
@@ -76,14 +84,14 @@ class FontBook {
 		adjustment = 0;
 		devDesc = false;
 		fontDescentStore = [0,0,0,0,0,0,0,0,0];
+		fontHeightStore = [0,0,0,0,0,0,0,0,0];
 	}
 	
 	function save() {
 		fontDescentStore[fontSize] = descent;
+		fontHeightStore[fontSize] = height + 2;
 	
 		changeFont(1);
-		testText = ["TEST WORD", 888];
-		testTextIdx = 0;
 		descent = 0;
 		adjustment = 0;
 		devDesc = false;
@@ -92,7 +100,7 @@ class FontBook {
 	}
 	
 	function print() {
-		Sys.println("Device -> " + fontDescentStore);
+		Sys.println("Device -> \n Font Descent" + fontDescentStore + "\n Font Height" + fontHeightStore);
 	}
 	
 	
