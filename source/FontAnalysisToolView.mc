@@ -43,6 +43,38 @@ class FontAnalysisToolView extends WatchUi.View {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
+   	function drawSave(dc) {
+		configControllerColor(dc, save); 
+		dc.drawText(
+    		dc.getWidth() * .5,
+    		dc.getHeight() * .1,
+    		0,
+    		"Save",
+        	Gfx.TEXT_JUSTIFY_CENTER
+		); 
+   	}
+   	
+   	function drawReset(dc) {
+   		configControllerColor(dc, reset); 
+		dc.drawText(
+    		dc.getWidth() * .5,
+    		dc.getHeight() * .1 + (dc.getFontHeight(0) * 1),
+    		0,
+    		"Reset",
+        	Gfx.TEXT_JUSTIFY_CENTER
+		); 
+   	}
+   	
+   	function drawPrint(dc) {
+		configControllerColor(dc, print); 
+		dc.drawText(
+    		dc.getWidth() * .5,
+    		dc.getHeight() * .1 + (dc.getFontHeight(0) * 2),
+    		0,
+    		"Print",
+        	Gfx.TEXT_JUSTIFY_CENTER
+		); 
+   	}
 
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from
