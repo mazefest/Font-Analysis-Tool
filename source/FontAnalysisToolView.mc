@@ -37,12 +37,52 @@ class FontAnalysisToolView extends WatchUi.View {
     // loading resources into memory.
     function onShow() {
     }
-
-    // Update the view
-    function onUpdate(dc) {
-        // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
+    
+    function drawFontSizeController(dc) {
+       	configControllerColor(dc, fontSize); 
+       	dc.drawText(
+    		dc.getWidth() * .5,
+    		dc.getHeight() * .65,
+    		0,
+    		"FontSize: " + fontBook.fontSize,
+        	Gfx.TEXT_JUSTIFY_CENTER
+		); 
     }
+    
+    function drawDescentController(dc) {
+       	configControllerColor(dc, descent); 
+       	dc.drawText(
+    		dc.getWidth() * .5,
+    		dc.getHeight() * .65 + dc.getFontHeight(0),
+    		0,
+    		"Descent: " + fontBook.descent,
+        	Gfx.TEXT_JUSTIFY_CENTER
+		); 
+    }
+    
+    function drawIQDescentController(dc) {
+       	configControllerColor(dc, devDesc); 
+    	var text = fontBook.devDesc ? "Enabled" : "Disabled";
+		dc.drawText(
+    		dc.getWidth() * .5,
+    		dc.getHeight() * .65 + (dc.getFontHeight(0) * 2),
+    		0,
+    		"Dev Desc: " + text,
+        	Gfx.TEXT_JUSTIFY_CENTER
+		); 
+    }
+    
+	function drawDevDescDiff(dc) {
+       configControllerColor(dc, devDescDiff); 
+	   dc.drawText(
+    		dc.getWidth() * .5,
+    		dc.getHeight() * .65 + (dc.getFontHeight(0) * 3),
+    		0,
+    		"DDD: " + fontBook.getDevAndHardDescentDiff(dc).toString(),
+        	Gfx.TEXT_JUSTIFY_CENTER
+		); 
+    }
+   
    	function drawSave(dc) {
 		configControllerColor(dc, save); 
 		dc.drawText(
