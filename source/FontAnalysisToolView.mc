@@ -76,10 +76,19 @@ class FontAnalysisToolView extends WatchUi.View {
 		); 
    	}
 
-    // Called when this View is removed from the screen. Save the
-    // state of this View here. This includes freeing resources from
-    // memory.
-    function onHide() {
+    function configControllerColor(dc, controller) {
+    	switch(controller) {
+    		case focusValue:
+    			if (focus) {
+					dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+    			} else  {
+					dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+    			}
+    			break;
+    		default:
+    			dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+    	}
+    	
     }
 
 }
