@@ -29,7 +29,7 @@ class FontBook {
 		fontSize = (fontSize + value) % 9;
 		fontSize = (fontSize < 0) ? 8 : fontSize;
 		
-		if (fontSize < 4) {
+		if (fontSize < 5) {
 			testTextIdx = 0;
 		} else {
 			testTextIdx = 1;
@@ -99,7 +99,10 @@ class FontBook {
 	}
 	
 	function print() {
-		Sys.println("Device -> \n Font Descent" + fontDescentStore + "\n Font Height" + fontHeightStore);
+		var deviceId = getDevice();
+		
+		Sys.println(" #"+deviceNames[deviceId]);
+		Sys.println(" Font Descent" + fontDescentStore + "\n Font Height" + fontHeightStore);
 	}
 	
 	
