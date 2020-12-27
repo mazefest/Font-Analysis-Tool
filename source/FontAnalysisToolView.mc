@@ -8,6 +8,7 @@ enum {fontSize, descent, devDesc, devDescDiff, save, reset, print, line}
 class FontAnalysisToolView extends WatchUi.View {
     var focus;
     var focusValue;
+    var referenceLine;
     function initialize() {
 		View.initialize();
         fontBook = new FontBook();
@@ -20,23 +21,13 @@ class FontAnalysisToolView extends WatchUi.View {
 		View.onUpdate(dc);
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE);
 		dc.clear();
-		
-		var referenceLine = dc.getHeight() / 2;
-       	
-       	dc.drawLine(0,dc.getHeight()/2,400,dc.getHeight()/2);
+		referenceLine = dc.getHeight() / 2;
+       
+       	drawText(dc);	
+       	drawMainReferenceLine(dc);	
 		drawLineInterface(dc);	
-       	
-       	 
-        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
-        dc.drawText(
-        	dc.getWidth() / 2,
-        	referenceLine + fontBook.calculateY(dc),
-        	fontBook.fontSize,
-        	fontBook.getText(),
-        	Gfx.TEXT_JUSTIFY_CENTER
-		);
 		drawControlBar(dc);
-		fontBook.writeData();	
+		//fontBook.writeData();	
 		
     }
 
@@ -49,6 +40,26 @@ class FontAnalysisToolView extends WatchUi.View {
 		drawReset(dc);
 		drawPrint(dc);
 		drawLine(dc);
+    }
+    
+    function drawText(dc) {
+	   dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+        dc.drawText(
+        	dc.getWidth() / 2,
+        	referenceLine + fontBook.calculateY(dc),
+        	fontBook.fontSize,
+        	fontBook.getText(),
+        	Gfx.TEXT_JUSTIFY_CENTER
+		);
+    }
+    
+    function drawMainReferenceLine(dc) {
+       	dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);	
+       	dc.drawLine(0,referenceLine - 2,400,referenceLine - 2);
+       	dc.drawLine(0,referenceLine - 1,400,referenceLine - 1);
+       	dc.drawLine(0,referenceLine + 1,400,referenceLine + 1);
+       	dc.drawLine(0,referenceLine + 2,400,referenceLine + 2);
+       	dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);	
     }
     
     function drawFontSizeController(dc) {
@@ -142,8 +153,13 @@ class FontAnalysisToolView extends WatchUi.View {
    	
    	function drawLineInterface(dc) {
 	   if (focusValue == line && focus) {
-		   var refLine = dc.getHeight() / 2;
-		   dc.drawLine(0, (refLine + fontBook.height), 400, (refLine + fontBook.height));
+			var refLine = dc.getHeight() / 2;
+			dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+			dc.drawLine(0, (refLine + fontBook.height) - 2, 400, (refLine + fontBook.height) - 2);
+			dc.drawLine(0, (refLine + fontBook.height) - 1, 400, (refLine + fontBook.height) - 2);
+			dc.drawLine(0, (refLine + fontBook.height) + 1, 400, (refLine + fontBook.height) + 2);
+			dc.drawLine(0, (refLine + fontBook.height) + 2, 400, (refLine + fontBook.height) + 2);
+			dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
 	   }
    	}
     
