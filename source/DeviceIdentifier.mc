@@ -158,6 +158,86 @@ function getDevice() {
 	}
 }
 
+function configDevieTextParameters(device) {
+	switch (device) {
+	
+		case fr645m:
+		case Fenix5Plus:
+		case Fenix5sPlus:
+		case Fenix5x:
+		case Fenix5xPlus:
+			fontDescent[-6, -6, -7, -8, -7, 0, -1, -1, -1];
+			fontHeight[17, 17, 18, 21, 25, 28, 37, 53, 60];
+			break;
+ 		
+ 		case fr245m:
+ 		case fr745:
+ 		case fr945:
+ 		case MARQAdvenurer:
+		case MARQAthlete:
+		case MARQAviator:
+		case MARQCaptain:
+		case MARQCommander:
+		case MARQDriver:
+		case MARQExpedition:
+			fontDescent = [-5, -6, -7, -8, -8, -13, -15, -21, -24];
+			fontHeight = [12, 16, 18, 21, 23, 29, 35, 47, 54];
+ 			break;
+		 
+		case D2Charlie:
+		case D2Delta:
+		case D2DeltaPX:
+		case D2DeltaS:
+		case DescentMK1:,
+			fontDescent = [-6, -6, -7, -8, -8, -1, -1, -1, -1];
+			fontHeight = [17, 17, 17, 21, 23, 27, 37, 53, 59];
+			break; 
+		 
+		case LegacyHeroCaptainMarvel:
+		case LegacySagaRey:
+		case Vivoactive4s:
+			fontDescent = [-4, -5, -6, -7, -8, -8, -10, -19, -21];
+			fontHeight = [11, 15, 17, 19, 21, 27, 30, 41, 46];
+			break;
+
+		case LegacySagaDarthVader:
+		case LegacyFirstAvenger:
+		case Fenix6sPro:
+		case Vivoactive4:
+			fontDescent = [-4, -5, -7, -8, -9, -10, -11, -21, -25];
+			fontHeight = [13, 18, 19, 22, 25, 31, 35, 48, 55];
+			break;
+ 
+		case DescentMK2:
+			fontDescent = [-4, -8, -8, -9, -9, -16, -20, -25, -29];
+			fontHeight = [13, 19, 21, 25, 27, 33, 40, 55, 62];
+			break;
+		
+		case Fenix6Pro:
+		case Fenix6xPro:
+			fontDescent = [-4, -7, -7, -8, -9, -15, -19, -24, -27];
+			fontHeight = [13, 18, 20, 24, 25, 31, 37, 51, 58];
+			break;
+ 
+		 case Venu:
+		 case VenuD:
+			 fontDescent[-7, -9, -10, -11, -13, -14, -16, -21, -25];
+			 fontHeight[21, 26, 29, 35, 36, 46, 54, 82, 96];
+			 break;
+ 
+		 case Vivoactive3D:
+		 case Vivoactive3M:
+		 case Vivoactive3MLTE:
+			 fontDescent = [-6, -9, -9, -10, -10, -11, -14, -20, -25];
+			 fontHeight = [13, 17, 17, 19, 19, 22, 26, 43, 53];
+ 
+		 case VenuSQM:
+			 fontDescent[-5, -5, -5, -5, -7, -8, -11, -13, -17];
+			 fontHeight[19, 19, 19, 19, 20, 20, 26, 31, 40];
+ 
+	}
+}
+
 
 var deviceNames = [
 "245M",
