@@ -113,180 +113,310 @@
         <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontBook.mc" id="29" lineNum="97" pc="268437705" symbol="save"/>
         <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontBook.mc" id="30" lineNum="101" pc="268437716" symbol="print"/>
         <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontBook.mc" id="30" lineNum="102" pc="268437720" symbol="print"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="32" lineNum="11" pc="268437766" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="32" lineNum="12" pc="268437770" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="32" lineNum="13" pc="268437788" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="32" lineNum="14" pc="268437818" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="32" lineNum="15" pc="268437828" symbol="initialize"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="19" pc="268437845" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="20" pc="268437849" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="21" pc="268437869" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="22" pc="268437905" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="24" pc="268437917" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="26" pc="268437936" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="27" pc="268437992" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="30" pc="268438006" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="31" pc="268438042" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="38" pc="268438136" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="39" pc="268438150" symbol="onUpdate"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="43" pc="268438169" symbol="drawControlBar"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="44" pc="268438173" symbol="drawControlBar"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="45" pc="268438187" symbol="drawControlBar"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="46" pc="268438201" symbol="drawControlBar"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="47" pc="268438215" symbol="drawControlBar"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="48" pc="268438229" symbol="drawControlBar"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="49" pc="268438243" symbol="drawControlBar"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="50" pc="268438257" symbol="drawControlBar"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="51" pc="268438271" symbol="drawControlBar"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="35" lineNum="54" pc="268438286" symbol="drawFontSizeController"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="35" lineNum="55" pc="268438290" symbol="drawFontSizeController"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="35" lineNum="56" pc="268438312" symbol="drawFontSizeController"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="36" lineNum="65" pc="268438396" symbol="drawDescentController"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="36" lineNum="66" pc="268438400" symbol="drawDescentController"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="36" lineNum="67" pc="268438422" symbol="drawDescentController"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="37" lineNum="76" pc="268438523" symbol="drawIQDescentController"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="37" lineNum="77" pc="268438527" symbol="drawIQDescentController"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="37" lineNum="78" pc="268438549" symbol="drawIQDescentController"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="37" lineNum="79" pc="268438581" symbol="drawIQDescentController"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="38" lineNum="88" pc="268438676" symbol="drawDevDescDiff"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="38" lineNum="89" pc="268438680" symbol="drawDevDescDiff"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="38" lineNum="90" pc="268438702" symbol="drawDevDescDiff"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="39" lineNum="99" pc="268438823" symbol="drawSave"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="39" lineNum="100" pc="268438827" symbol="drawSave"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="39" lineNum="101" pc="268438849" symbol="drawSave"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="40" lineNum="110" pc="268438918" symbol="drawReset"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="40" lineNum="111" pc="268438922" symbol="drawReset"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="40" lineNum="112" pc="268438944" symbol="drawReset"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="41" lineNum="121" pc="268439036" symbol="drawPrint"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="41" lineNum="122" pc="268439040" symbol="drawPrint"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="41" lineNum="123" pc="268439062" symbol="drawPrint"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="42" lineNum="132" pc="268439154" symbol="drawLine"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="42" lineNum="133" pc="268439158" symbol="drawLine"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="42" lineNum="134" pc="268439180" symbol="drawLine"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="43" lineNum="143" pc="268439272" symbol="drawLineInterface"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="43" lineNum="144" pc="268439276" symbol="drawLineInterface"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="43" lineNum="145" pc="268439310" symbol="drawLineInterface"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="43" lineNum="146" pc="268439329" symbol="drawLineInterface"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="44" lineNum="150" pc="268439389" symbol="configControllerColor"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="44" lineNum="151" pc="268439393" symbol="configControllerColor"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="44" lineNum="160" pc="268439427" symbol="configControllerColor"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="44" lineNum="153" pc="268439466" symbol="configControllerColor"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="44" lineNum="154" pc="268439477" symbol="configControllerColor"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="44" lineNum="156" pc="268439516" symbol="configControllerColor"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="44" lineNum="158" pc="268439552" symbol="configControllerColor"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="45" lineNum="165" pc="268439559" symbol="clearScreen"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="45" lineNum="166" pc="268439563" symbol="clearScreen"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="45" lineNum="167" pc="268439599" symbol="clearScreen"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="46" lineNum="170" pc="268439612" symbol="changeFocus"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="46" lineNum="171" pc="268439616" symbol="changeFocus"/>
-        <entry filename="Rez" id="52" lineNum="16" pc="268439634" symbol="MainLayout"/>
-        <entry filename="Rez" id="52" lineNum="18" pc="268439646" symbol="MainLayout"/>
-        <entry filename="Rez" id="52" lineNum="19" pc="268439798" symbol="MainLayout"/>
-        <entry filename="Rez" id="52" lineNum="20" pc="268439910" symbol="MainLayout"/>
-        <entry filename="Rez" id="52" lineNum="22" pc="268439950" symbol="MainLayout"/>
-        <entry filename="Rez" id="55" lineNum="35" pc="268439978" symbol="initialize"/>
-        <entry filename="Rez" id="55" lineNum="36" pc="268439982" symbol="initialize"/>
-        <entry filename="Rez" id="55" lineNum="37" pc="268440000" symbol="initialize"/>
-        <entry filename="Rez" id="55" lineNum="38" pc="268440056" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontBook.mc" id="30" lineNum="104" pc="268437733" symbol="print"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontBook.mc" id="30" lineNum="105" pc="268437766" symbol="print"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="32" lineNum="12" pc="268437812" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="32" lineNum="13" pc="268437816" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="32" lineNum="14" pc="268437834" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="32" lineNum="15" pc="268437864" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="32" lineNum="16" pc="268437874" symbol="initialize"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="20" pc="268437891" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="21" pc="268437895" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="22" pc="268437915" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="23" pc="268437951" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="24" pc="268437963" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="26" pc="268437988" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="27" pc="268438002" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="28" pc="268438016" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="33" lineNum="29" pc="268438030" symbol="onUpdate"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="34" pc="268438045" symbol="drawControlBar"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="35" pc="268438049" symbol="drawControlBar"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="36" pc="268438063" symbol="drawControlBar"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="37" pc="268438077" symbol="drawControlBar"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="38" pc="268438091" symbol="drawControlBar"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="39" pc="268438105" symbol="drawControlBar"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="40" pc="268438119" symbol="drawControlBar"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="41" pc="268438133" symbol="drawControlBar"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="34" lineNum="42" pc="268438147" symbol="drawControlBar"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="35" lineNum="45" pc="268438162" symbol="drawText"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="35" lineNum="46" pc="268438166" symbol="drawText"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="35" lineNum="47" pc="268438202" symbol="drawText"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="36" lineNum="56" pc="268438303" symbol="drawMainReferenceLine"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="36" lineNum="57" pc="268438307" symbol="drawMainReferenceLine"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="36" lineNum="58" pc="268438343" symbol="drawMainReferenceLine"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="36" lineNum="59" pc="268438393" symbol="drawMainReferenceLine"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="36" lineNum="60" pc="268438443" symbol="drawMainReferenceLine"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="36" lineNum="61" pc="268438493" symbol="drawMainReferenceLine"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="36" lineNum="62" pc="268438543" symbol="drawMainReferenceLine"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="37" lineNum="65" pc="268438580" symbol="drawFontSizeController"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="37" lineNum="66" pc="268438584" symbol="drawFontSizeController"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="37" lineNum="67" pc="268438606" symbol="drawFontSizeController"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="38" lineNum="76" pc="268438690" symbol="drawDescentController"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="38" lineNum="77" pc="268438694" symbol="drawDescentController"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="38" lineNum="78" pc="268438716" symbol="drawDescentController"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="39" lineNum="87" pc="268438817" symbol="drawIQDescentController"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="39" lineNum="88" pc="268438821" symbol="drawIQDescentController"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="39" lineNum="89" pc="268438843" symbol="drawIQDescentController"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="39" lineNum="90" pc="268438875" symbol="drawIQDescentController"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="40" lineNum="99" pc="268438970" symbol="drawDevDescDiff"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="40" lineNum="100" pc="268438974" symbol="drawDevDescDiff"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="40" lineNum="101" pc="268438996" symbol="drawDevDescDiff"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="41" lineNum="110" pc="268439117" symbol="drawSave"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="41" lineNum="111" pc="268439121" symbol="drawSave"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="41" lineNum="112" pc="268439143" symbol="drawSave"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="42" lineNum="121" pc="268439212" symbol="drawReset"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="42" lineNum="122" pc="268439216" symbol="drawReset"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="42" lineNum="123" pc="268439238" symbol="drawReset"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="43" lineNum="132" pc="268439330" symbol="drawPrint"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="43" lineNum="133" pc="268439334" symbol="drawPrint"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="43" lineNum="134" pc="268439356" symbol="drawPrint"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="44" lineNum="143" pc="268439448" symbol="drawLine"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="44" lineNum="144" pc="268439452" symbol="drawLine"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="44" lineNum="145" pc="268439474" symbol="drawLine"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="45" lineNum="154" pc="268439566" symbol="drawLineInterface"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="45" lineNum="155" pc="268439570" symbol="drawLineInterface"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="45" lineNum="156" pc="268439604" symbol="drawLineInterface"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="45" lineNum="157" pc="268439623" symbol="drawLineInterface"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="45" lineNum="158" pc="268439659" symbol="drawLineInterface"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="45" lineNum="159" pc="268439727" symbol="drawLineInterface"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="45" lineNum="160" pc="268439795" symbol="drawLineInterface"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="45" lineNum="161" pc="268439863" symbol="drawLineInterface"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="45" lineNum="162" pc="268439931" symbol="drawLineInterface"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="46" lineNum="166" pc="268439971" symbol="configControllerColor"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="46" lineNum="167" pc="268439975" symbol="configControllerColor"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="46" lineNum="176" pc="268440009" symbol="configControllerColor"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="46" lineNum="169" pc="268440048" symbol="configControllerColor"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="46" lineNum="170" pc="268440059" symbol="configControllerColor"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="46" lineNum="172" pc="268440098" symbol="configControllerColor"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="46" lineNum="174" pc="268440134" symbol="configControllerColor"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="47" lineNum="181" pc="268440141" symbol="clearScreen"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="47" lineNum="182" pc="268440145" symbol="clearScreen"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="47" lineNum="183" pc="268440181" symbol="clearScreen"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="48" lineNum="186" pc="268440194" symbol="changeFocus"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/FontAnalysisToolView.mc" id="48" lineNum="187" pc="268440198" symbol="changeFocus"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="6" pc="268440216" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="7" pc="268440228" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="9" pc="268440251" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="12" pc="268440931" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="13" pc="268440940" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="16" pc="268440943" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="17" pc="268440952" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="20" pc="268440955" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="21" pc="268440964" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="24" pc="268440967" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="25" pc="268440976" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="28" pc="268440979" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="29" pc="268440988" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="32" pc="268440991" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="33" pc="268441000" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="36" pc="268441003" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="37" pc="268441012" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="40" pc="268441015" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="41" pc="268441024" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="44" pc="268441027" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="45" pc="268441036" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="48" pc="268441039" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="49" pc="268441048" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="52" pc="268441051" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="53" pc="268441060" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="56" pc="268441063" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="57" pc="268441072" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="60" pc="268441075" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="61" pc="268441084" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="64" pc="268441087" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="65" pc="268441096" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="68" pc="268441099" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="69" pc="268441108" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="72" pc="268441111" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="73" pc="268441120" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="76" pc="268441123" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="77" pc="268441132" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="80" pc="268441135" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="81" pc="268441144" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="84" pc="268441147" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="85" pc="268441156" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="88" pc="268441159" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="89" pc="268441168" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="92" pc="268441171" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="93" pc="268441180" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="96" pc="268441183" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="97" pc="268441192" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="100" pc="268441195" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="101" pc="268441204" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="104" pc="268441207" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="105" pc="268441216" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="108" pc="268441219" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="109" pc="268441228" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="112" pc="268441231" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="113" pc="268441240" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="116" pc="268441243" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="117" pc="268441252" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="120" pc="268441255" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="121" pc="268441264" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="124" pc="268441267" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="125" pc="268441276" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="128" pc="268441279" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="129" pc="268441288" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="132" pc="268441291" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="133" pc="268441300" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="136" pc="268441303" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="137" pc="268441312" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="140" pc="268441315" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="141" pc="268441324" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="144" pc="268441327" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="145" pc="268441336" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="148" pc="268441339" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="149" pc="268441348" symbol="getDevice"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="154" pc="268442313" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="55" lineNum="16" pc="268441352" symbol="MainLayout"/>
+        <entry filename="Rez" id="55" lineNum="18" pc="268441364" symbol="MainLayout"/>
+        <entry filename="Rez" id="55" lineNum="20" pc="268441377" symbol="MainLayout"/>
+        <entry filename="Rez" id="55" lineNum="21" pc="268441532" symbol="MainLayout"/>
+        <entry filename="Rez" id="55" lineNum="22" pc="268441644" symbol="MainLayout"/>
+        <entry filename="Rez" id="55" lineNum="24" pc="268441681" symbol="MainLayout"/>
+        <entry filename="Rez" id="58" lineNum="37" pc="268441709" symbol="initialize"/>
+        <entry filename="Rez" id="58" lineNum="38" pc="268441713" symbol="initialize"/>
+        <entry filename="Rez" id="58" lineNum="39" pc="268441731" symbol="initialize"/>
+        <entry filename="Rez" id="58" lineNum="40" pc="268441787" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="25" method="true" symbol="drawIQDescentController"/>
+        <entry id="63" method="true" symbol="drawIQDescentController"/>
         <entry field="true" id="17" symbol="devDescDiff"/>
         <entry id="8389346" symbol="text"/>
+        <entry field="true" id="49" symbol="Vivoactive4s"/>
         <entry id="8389184" method="true" symbol="drawLine"/>
+        <entry id="8391254" method="true" symbol="getDevice"/>
+        <entry field="true" id="46" symbol="Vivoactive3M"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="52" method="true" symbol="changeFont"/>
-        <entry id="39" method="true" symbol="MainLayout"/>
+        <entry id="90" method="true" symbol="changeFont"/>
+        <entry id="77" method="true" symbol="MainLayout"/>
+        <entry field="true" id="26" symbol="Fenix5X"/>
         <entry id="8391036" method="true" symbol="getText"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry field="true" id="8390436" symbol="focus"/>
         <entry field="true" id="18" method="true" symbol="reset"/>
         <entry field="true" id="19" symbol="line"/>
-        <entry field="true" id="43" symbol="AppName"/>
-        <entry field="true" id="45" symbol="focusItemCount"/>
+        <entry field="true" id="81" symbol="AppName"/>
+        <entry field="true" id="83" symbol="focusItemCount"/>
+        <entry field="true" id="38" symbol="LegacyHeroCaptainMarvel"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="12" object="true" symbol="FontBook"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8389345" symbol="rezId"/>
-        <entry id="54" method="true" symbol="changeDeviceDescent"/>
+        <entry id="92" method="true" symbol="changeDeviceDescent"/>
+        <entry field="true" id="44" symbol="VenuSQM"/>
         <entry id="10" object="true" symbol="FontAnalysisToolMenuDelegate"/>
-        <entry id="27" method="true" symbol="drawSave"/>
+        <entry id="65" method="true" symbol="drawSave"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="8389081" method="true" symbol="onBack"/>
-        <entry id="32" method="true" symbol="clearScreen"/>
+        <entry id="70" method="true" symbol="clearScreen"/>
+        <entry field="true" id="47" symbol="Vivoactive3MLTE"/>
         <entry id="20" object="true" symbol="FontAnalysisToolView"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="42" symbol="prompt"/>
-        <entry field="true" id="36" symbol="id_monkey"/>
-        <entry id="28" method="true" symbol="drawReset"/>
+        <entry field="true" id="80" symbol="prompt"/>
+        <entry field="true" id="74" symbol="id_monkey"/>
+        <entry id="66" method="true" symbol="drawReset"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry field="true" id="8388712" method="true" symbol="print"/>
-        <entry field="true" id="49" symbol="adjustment"/>
-        <entry id="55" method="true" symbol="changeHeight"/>
-        <entry id="23" method="true" symbol="drawFontSizeController"/>
+        <entry field="true" id="43" symbol="VenuD"/>
+        <entry field="true" id="87" symbol="adjustment"/>
+        <entry id="93" method="true" symbol="changeHeight"/>
+        <entry field="true" id="39" symbol="LegacyFirstAvenger"/>
+        <entry id="61" method="true" symbol="drawFontSizeController"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry field="true" id="8389067" symbol="height"/>
         <entry id="9" object="true" symbol="FontAnalysisToolApp"/>
+        <entry field="true" id="40" symbol="LegacySagaDarthVader"/>
         <entry id="11" object="true" symbol="FontAnalysisToolDelegate"/>
-        <entry id="60" symbol="item_2"/>
-        <entry id="59" symbol="item_1"/>
+        <entry id="98" symbol="item_2"/>
+        <entry id="97" symbol="item_1"/>
         <entry id="8389079" method="true" symbol="onPreviousPage"/>
-        <entry id="35" module="true" symbol="Menus"/>
+        <entry id="73" module="true" symbol="Menus"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="52" symbol="D2DeltaPX"/>
+        <entry field="true" id="55" symbol="DescentMK2"/>
+        <entry field="true" id="54" symbol="DescentMK1"/>
+        <entry field="true" id="28" symbol="Fenix5sPlus"/>
         <entry field="true" id="8389063" symbol="identifier"/>
-        <entry field="true" id="21" symbol="focusValue"/>
+        <entry field="true" id="57" symbol="focusValue"/>
         <entry id="8389349" symbol="justification"/>
-        <entry id="29" method="true" symbol="drawPrint"/>
+        <entry field="true" id="56" symbol="deviceNames"/>
+        <entry id="67" method="true" symbol="drawPrint"/>
+        <entry field="true" id="22" symbol="fr645m"/>
+        <entry field="true" id="32" symbol="MARQAviator"/>
         <entry field="true" id="13" symbol="fontBook"/>
         <entry field="true" id="8388882" method="true" symbol="save"/>
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
-        <entry id="56" method="true" symbol="calculateY"/>
+        <entry field="true" id="29" symbol="Fenix6xPro"/>
+        <entry id="94" method="true" symbol="calculateY"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry field="true" id="15" symbol="descent"/>
-        <entry id="38" object="true" symbol="MainMenu"/>
-        <entry id="33" method="true" symbol="changeFocus"/>
+        <entry field="true" id="42" symbol="Venu"/>
+        <entry field="true" id="48" symbol="Vivoactive4"/>
+        <entry id="76" object="true" symbol="MainMenu"/>
+        <entry field="true" id="24" symbol="fr945"/>
+        <entry id="71" method="true" symbol="changeFocus"/>
+        <entry field="true" id="50" symbol="D2Charlie"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry id="22" method="true" symbol="drawControlBar"/>
+        <entry id="59" method="true" symbol="drawControlBar"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry field="true" id="25" symbol="F5"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="50" symbol="fontDescentStore"/>
-        <entry field="true" id="48" symbol="testTextIdx"/>
-        <entry id="46" method="true" symbol="changeValue"/>
+        <entry field="true" id="36" symbol="MARQAdventurer"/>
+        <entry field="true" id="88" symbol="fontDescentStore"/>
+        <entry field="true" id="37" symbol="MARQCommander"/>
+        <entry field="true" id="58" symbol="referenceLine"/>
+        <entry field="true" id="86" symbol="testTextIdx"/>
+        <entry id="84" method="true" symbol="changeValue"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="37" symbol="LauncherIcon"/>
+        <entry field="true" id="75" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
-        <entry id="57" method="true" symbol="getDevAndHardDescentDiff"/>
+        <entry field="true" id="31" symbol="MARQAthlete"/>
+        <entry id="95" method="true" symbol="getDevAndHardDescentDiff"/>
+        <entry id="60" method="true" symbol="drawMainReferenceLine"/>
+        <entry field="true" id="33" symbol="MARQCaptain"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry id="26" method="true" symbol="drawDevDescDiff"/>
+        <entry id="64" method="true" symbol="drawDevDescDiff"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="27" symbol="Fenix5xPlus"/>
+        <entry field="true" id="34" symbol="MARQDriver"/>
+        <entry field="true" id="30" symbol="Fenix6sPro"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="31" method="true" symbol="configControllerColor"/>
-        <entry field="true" id="44" symbol="view"/>
+        <entry id="69" method="true" symbol="configControllerColor"/>
+        <entry field="true" id="41" symbol="LegacySagaRey"/>
+        <entry field="true" id="82" symbol="view"/>
+        <entry field="true" id="51" symbol="D2Delta"/>
+        <entry id="8389190" method="true" symbol="drawText"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="53" symbol="D2DeltaS"/>
+        <entry field="true" id="45" symbol="VivoActive3D"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry id="8389347" symbol="color"/>
-        <entry id="24" method="true" symbol="drawDescentController"/>
+        <entry id="62" method="true" symbol="drawDescentController"/>
         <entry field="true" id="16" symbol="devDesc"/>
-        <entry id="58" method="true" symbol="writeData"/>
-        <entry id="30" method="true" symbol="drawLineInterface"/>
-        <entry field="true" id="51" symbol="fontHeightStore"/>
-        <entry id="34" module="true" symbol="Layouts"/>
-        <entry id="53" method="true" symbol="changeDescent"/>
+        <entry id="96" method="true" symbol="writeData"/>
+        <entry id="68" method="true" symbol="drawLineInterface"/>
+        <entry field="true" id="89" symbol="fontHeightStore"/>
+        <entry field="true" id="23" symbol="fr745"/>
+        <entry field="true" id="21" symbol="fr245m"/>
+        <entry id="72" module="true" symbol="Layouts"/>
+        <entry id="91" method="true" symbol="changeDescent"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="35" symbol="MARQExpedition"/>
         <entry field="true" id="14" symbol="fontSize"/>
-        <entry field="true" id="47" symbol="testText"/>
+        <entry field="true" id="85" symbol="testText"/>
         <entry id="8389078" method="true" symbol="onNextPage"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="41" symbol="menu_label_2"/>
-        <entry field="true" id="40" symbol="menu_label_1"/>
+        <entry field="true" id="79" symbol="menu_label_2"/>
+        <entry field="true" id="78" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435484" name="state" stackId="1" startPc="268435479"/>
@@ -302,43 +432,47 @@
         <entry endPc="268437144" name="mDescent" stackId="2" startPc="268437093"/>
         <entry arg="true" endPc="268437145" name="dc" stackId="1" startPc="268437089"/>
         <entry arg="true" endPc="268437205" name="dc" stackId="1" startPc="268437145"/>
-        <entry endPc="268438168" name="referenceLine" stackId="2" startPc="268437849"/>
-        <entry arg="true" endPc="268438169" name="dc" stackId="1" startPc="268437845"/>
-        <entry arg="true" endPc="268438286" name="dc" stackId="1" startPc="268438169"/>
-        <entry arg="true" endPc="268438396" name="dc" stackId="1" startPc="268438286"/>
-        <entry arg="true" endPc="268438523" name="dc" stackId="1" startPc="268438396"/>
-        <entry endPc="268438675" name="text" stackId="2" startPc="268438527"/>
-        <entry arg="true" endPc="268438676" name="dc" stackId="1" startPc="268438523"/>
-        <entry arg="true" endPc="268438823" name="dc" stackId="1" startPc="268438676"/>
-        <entry arg="true" endPc="268438918" name="dc" stackId="1" startPc="268438823"/>
-        <entry arg="true" endPc="268439036" name="dc" stackId="1" startPc="268438918"/>
-        <entry arg="true" endPc="268439154" name="dc" stackId="1" startPc="268439036"/>
-        <entry arg="true" endPc="268439272" name="dc" stackId="1" startPc="268439154"/>
-        <entry endPc="268439385" name="refLine" stackId="2" startPc="268439310"/>
-        <entry arg="true" endPc="268439389" name="dc" stackId="1" startPc="268439272"/>
-        <entry arg="true" endPc="268439559" name="controller" stackId="2" startPc="268439389"/>
-        <entry arg="true" endPc="268439559" name="dc" stackId="1" startPc="268439389"/>
-        <entry arg="true" endPc="268439612" name="dc" stackId="1" startPc="268439559"/>
-        <entry endPc="268439977" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268439646"/>
-        <entry endPc="268439977" name="rez_cmp_local_text_7471395251" stackId="2" startPc="268439646"/>
-        <entry arg="true" endPc="268439978" name="dc" stackId="1" startPc="268439634"/>
+        <entry endPc="268437811" name="deviceId" stackId="1" startPc="268437720"/>
+        <entry arg="true" endPc="268438045" name="dc" stackId="1" startPc="268437891"/>
+        <entry arg="true" endPc="268438162" name="dc" stackId="1" startPc="268438045"/>
+        <entry arg="true" endPc="268438303" name="dc" stackId="1" startPc="268438162"/>
+        <entry arg="true" endPc="268438580" name="dc" stackId="1" startPc="268438303"/>
+        <entry arg="true" endPc="268438690" name="dc" stackId="1" startPc="268438580"/>
+        <entry arg="true" endPc="268438817" name="dc" stackId="1" startPc="268438690"/>
+        <entry endPc="268438969" name="text" stackId="2" startPc="268438821"/>
+        <entry arg="true" endPc="268438970" name="dc" stackId="1" startPc="268438817"/>
+        <entry arg="true" endPc="268439117" name="dc" stackId="1" startPc="268438970"/>
+        <entry arg="true" endPc="268439212" name="dc" stackId="1" startPc="268439117"/>
+        <entry arg="true" endPc="268439330" name="dc" stackId="1" startPc="268439212"/>
+        <entry arg="true" endPc="268439448" name="dc" stackId="1" startPc="268439330"/>
+        <entry arg="true" endPc="268439566" name="dc" stackId="1" startPc="268439448"/>
+        <entry endPc="268439967" name="refLine" stackId="2" startPc="268439604"/>
+        <entry arg="true" endPc="268439971" name="dc" stackId="1" startPc="268439566"/>
+        <entry arg="true" endPc="268440141" name="controller" stackId="2" startPc="268439971"/>
+        <entry arg="true" endPc="268440141" name="dc" stackId="1" startPc="268439971"/>
+        <entry arg="true" endPc="268440194" name="dc" stackId="1" startPc="268440141"/>
+        <entry endPc="268441351" name="partNumber" stackId="1" startPc="268440228"/>
+        <entry endPc="268441708" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268441364"/>
+        <entry endPc="268441708" name="rez_cmp_local_text_1337491379" stackId="3" startPc="268441364"/>
+        <entry endPc="268441708" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268441364"/>
+        <entry arg="true" endPc="268441709" name="dc" stackId="1" startPc="268441352"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
         <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry offset="246" parentId="globals" symbolId="FontAnalysisToolApp" type="class"/>
-        <dataEntry offset="317" parentId="globals" symbolId="FontAnalysisToolView" type="class"/>
-        <dataEntry offset="492" parentId="globals" symbolId="FontAnalysisToolMenuDelegate" type="class"/>
-        <dataEntry offset="547" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry offset="626" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry offset="673" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry offset="712" parentId="Menus" symbolId="MainMenu" type="class"/>
-        <dataEntry offset="759" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry offset="790" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry offset="829" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry offset="860" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry offset="923" parentId="globals" symbolId="FontAnalysisToolDelegate" type="class"/>
-        <dataEntry offset="1034" parentId="globals" symbolId="FontBook" type="class"/>
+        <dataEntry offset="542" parentId="globals" symbolId="FontAnalysisToolApp" type="class"/>
+        <dataEntry offset="613" parentId="globals" symbolId="FontAnalysisToolView" type="class"/>
+        <dataEntry offset="812" parentId="globals" symbolId="FontAnalysisToolMenuDelegate" type="class"/>
+        <dataEntry offset="867" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="946" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="993" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="1032" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry offset="1079" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="1110" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="1149" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="1180" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="1243" parentId="globals" symbolId="FontAnalysisToolDelegate" type="class"/>
+        <dataEntry offset="1354" parentId="globals" symbolId="FontBook" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="initialize" parent="FontAnalysisToolApp">
@@ -437,6 +571,14 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
+        <functionEntry accessMode="public" name="drawText" parent="FontAnalysisToolView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawMainReferenceLine" parent="FontAnalysisToolView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
         <functionEntry accessMode="public" name="drawFontSizeController" parent="FontAnalysisToolView">
             <param id="dc"/>
             <documentation/>
@@ -483,6 +625,9 @@
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="changeFocus" parent="FontAnalysisToolView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getDevice">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
