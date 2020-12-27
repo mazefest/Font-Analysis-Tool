@@ -1,4 +1,5 @@
 using Toybox.WatchUi;
+using Toybox.System as Sys;
 
 class FontAnalysisToolDelegate extends WatchUi.BehaviorDelegate {
 	var view;
@@ -6,7 +7,7 @@ class FontAnalysisToolDelegate extends WatchUi.BehaviorDelegate {
     function initialize(view) {
         BehaviorDelegate.initialize();
         self.view = view;
-		focusItemCount = 6;
+		focusItemCount = 7;
     }
 
     function onMenu() {
@@ -41,8 +42,10 @@ class FontAnalysisToolDelegate extends WatchUi.BehaviorDelegate {
 	
 		if (view.focusValue == devDesc && view.focus) {
 			fontBook.changeDeviceDescent();
+		
 		} else if (view.focus) {
 			changeValue(1);
+		
 		} else {
 			view.focusValue = (view.focusValue + 1) % (focusItemCount + 1); 
 		}
@@ -54,11 +57,13 @@ class FontAnalysisToolDelegate extends WatchUi.BehaviorDelegate {
 		
 		if (view.focusValue == devDesc && view.focus) {
 			fontBook.changeDeviceDescent();
+		
 		} else if (view.focus) {
 			changeValue(-1);
+		
 		} else {
 			view.focusValue = (view.focusValue - 1);
-			view.focusValue = (view.focusValue < 0) ? (focusItemCount - 1) : view.focusValue;  
+			view.focusValue = (view.focusValue < 0) ? (focusItemCount) : view.focusValue;  
 		}
 		
 		WatchUi.requestUpdate();
@@ -66,6 +71,9 @@ class FontAnalysisToolDelegate extends WatchUi.BehaviorDelegate {
 	
 	function changeValue(value) {
 		switch (view.focusValue) {
+			case line: 
+				fontBook.changeHeight(value);
+				break;	
 			case fontSize:
 				fontBook.changeFont(value);
 				break;
