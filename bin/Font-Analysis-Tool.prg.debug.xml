@@ -267,17 +267,16 @@
         <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="145" pc="268441336" symbol="getDevice"/>
         <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="148" pc="268441339" symbol="getDevice"/>
         <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="149" pc="268441348" symbol="getDevice"/>
-        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="154" pc="268442313" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mazefest/Documents/Stryd/Live Apps/Font-Analysis-Tool-2/source/DeviceIdentifier.mc" id="49" lineNum="154" pc="268442300" symbol="&lt;init&gt;"/>
         <entry filename="Rez" id="55" lineNum="16" pc="268441352" symbol="MainLayout"/>
         <entry filename="Rez" id="55" lineNum="18" pc="268441364" symbol="MainLayout"/>
-        <entry filename="Rez" id="55" lineNum="20" pc="268441377" symbol="MainLayout"/>
-        <entry filename="Rez" id="55" lineNum="21" pc="268441532" symbol="MainLayout"/>
-        <entry filename="Rez" id="55" lineNum="22" pc="268441644" symbol="MainLayout"/>
-        <entry filename="Rez" id="55" lineNum="24" pc="268441681" symbol="MainLayout"/>
-        <entry filename="Rez" id="58" lineNum="37" pc="268441709" symbol="initialize"/>
-        <entry filename="Rez" id="58" lineNum="38" pc="268441713" symbol="initialize"/>
-        <entry filename="Rez" id="58" lineNum="39" pc="268441731" symbol="initialize"/>
-        <entry filename="Rez" id="58" lineNum="40" pc="268441787" symbol="initialize"/>
+        <entry filename="Rez" id="55" lineNum="19" pc="268441516" symbol="MainLayout"/>
+        <entry filename="Rez" id="55" lineNum="20" pc="268441628" symbol="MainLayout"/>
+        <entry filename="Rez" id="55" lineNum="22" pc="268441668" symbol="MainLayout"/>
+        <entry filename="Rez" id="58" lineNum="35" pc="268441696" symbol="initialize"/>
+        <entry filename="Rez" id="58" lineNum="36" pc="268441700" symbol="initialize"/>
+        <entry filename="Rez" id="58" lineNum="37" pc="268441718" symbol="initialize"/>
+        <entry filename="Rez" id="58" lineNum="38" pc="268441774" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -452,10 +451,9 @@
         <entry arg="true" endPc="268440141" name="dc" stackId="1" startPc="268439971"/>
         <entry arg="true" endPc="268440194" name="dc" stackId="1" startPc="268440141"/>
         <entry endPc="268441351" name="partNumber" stackId="1" startPc="268440228"/>
-        <entry endPc="268441708" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268441364"/>
-        <entry endPc="268441708" name="rez_cmp_local_text_1337491379" stackId="3" startPc="268441364"/>
-        <entry endPc="268441708" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268441364"/>
-        <entry arg="true" endPc="268441709" name="dc" stackId="1" startPc="268441352"/>
+        <entry endPc="268441695" name="rez_cmp_local_text_1913152281" stackId="2" startPc="268441364"/>
+        <entry endPc="268441695" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268441364"/>
+        <entry arg="true" endPc="268441696" name="dc" stackId="1" startPc="268441352"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
