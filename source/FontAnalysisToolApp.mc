@@ -17,7 +17,9 @@ class FontAnalysisToolApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new FontAnalysisToolView(), new FontAnalysisToolDelegate() ];
+    	var view = new FontAnalysisToolView();
+    	var delegate = new FontAnalysisToolDelegate(view);
+        return [ view, delegate];
     }
 
 }
