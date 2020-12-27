@@ -1,6 +1,15 @@
 using Toybox.System as Sys;
 
 class FontBook {
+	function changeDescent(value) {
+		descent += value;
+		
+	}
+	
+	function changeDeviceDescent() {
+		devDesc = !devDesc;
+	}	
+	
 	function calculateY(dc) {
 		var mDescent = descent;
 		if (devDesc) {
