@@ -90,5 +90,14 @@ class FontAnalysisToolView extends WatchUi.View {
     	}
     	
     }
+    
+    function clearScreen(dc) {
+		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE);
+		dc.clear();
+	}
+	
+	function changeFocus() {
+		focus = !focus;
+	}
 
 }
