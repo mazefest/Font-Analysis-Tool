@@ -10,6 +10,23 @@ class FontAnalysisToolDelegate extends WatchUi.BehaviorDelegate {
         WatchUi.pushView(new Rez.Menus.MainMenu(), new FontAnalysisToolMenuDelegate(), WatchUi.SLIDE_UP);
         return true;
     }
+    function onSelect() {
+   		switch(view.focusValue) {
+   			case save:
+   				fontBook.save();
+   				break;
+   			case reset:
+   				fontBook.reset();
+   				break;
+   			case print:
+   				fontBook.print();
+   				break;
+   			default:
+			   view.changeFocus(); 
+   		}	
+   		
+		WatchUi.requestUpdate();
+    }
 	function onNextPage() {
 	
 		if (view.focusValue == devDesc && view.focus) {
