@@ -36,7 +36,8 @@ D2Delta,
 D2DeltaPX, 
 D2DeltaS, 
 DescentMK1, 
-DescentMK2
+DescentMK2,
+Enduro
 }		
 
 
@@ -188,8 +189,10 @@ function getDevice() {
 		case "006-B3258-00":
 			return DescentMK2;	
 			break;
+		case "006-B3638-00":
+			return Enduro;
 		default:
-			//Sys.println("--->> " + partNumber);
+			Sys.println("--->> " + partNumber);
 			return 0;
 		
 	}
@@ -312,6 +315,7 @@ var deviceNames = [
 "D2 Delta PX",	
 "D2 Delta S",
 "Descent MK1",	
-"Descent MK2"
+"Descent MK2",
+"Enduro"
 ];
 
