@@ -68,7 +68,7 @@ class FontAnalysisToolView extends WatchUi.View {
     		dc.getWidth() * .5,
     		dc.getHeight() * .65,
     		0,
-    		"FontSize: " + fontBook.fontName(),
+    		"Font: " + fontBook.fontName(),
         	Gfx.TEXT_JUSTIFY_CENTER
 		); 
     }
@@ -111,7 +111,7 @@ class FontAnalysisToolView extends WatchUi.View {
 		configControllerColor(dc, save); 
 		dc.drawText(
     		dc.getWidth() * .5,
-    		dc.getHeight() * .1,
+    		dc.getHeight() * .02,
     		0,
     		"Save",
         	Gfx.TEXT_JUSTIFY_CENTER
@@ -122,7 +122,7 @@ class FontAnalysisToolView extends WatchUi.View {
    		configControllerColor(dc, reset); 
 		dc.drawText(
     		dc.getWidth() * .5,
-    		dc.getHeight() * .1 + (dc.getFontHeight(0) * 1),
+    		dc.getHeight() * .02 + (dc.getFontHeight(0) * 1),
     		0,
     		"Reset",
         	Gfx.TEXT_JUSTIFY_CENTER
@@ -133,7 +133,7 @@ class FontAnalysisToolView extends WatchUi.View {
 		configControllerColor(dc, print); 
 		dc.drawText(
     		dc.getWidth() * .5,
-    		dc.getHeight() * .1 + (dc.getFontHeight(0) * 2),
+    		dc.getHeight() * .02 + (dc.getFontHeight(0) * 2),
     		0,
     		"Print",
         	Gfx.TEXT_JUSTIFY_CENTER
@@ -144,7 +144,7 @@ class FontAnalysisToolView extends WatchUi.View {
 		configControllerColor(dc, line); 
 		dc.drawText(
     		dc.getWidth() * .5,
-    		dc.getHeight() * .1 + (dc.getFontHeight(0) * 3),
+    		dc.getHeight() * .02 + (dc.getFontHeight(0) * 3),
     		0,
     		"Line",
         	Gfx.TEXT_JUSTIFY_CENTER
