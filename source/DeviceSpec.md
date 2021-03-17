@@ -3,8 +3,7 @@
  Font Height[17, 17, 18, 21, 25, 28, 37, 53, 60]
  
  #FR 245M, 745, 945
- #MARQ Adventurer, MARQ Athlete, MARQ Aviator, MARQ Captain, MARQ Commander, MARQ Driver, MARQ Expedition
- 
+ #MARQ Adventurer, MARQ Athlete, MARQ Aviator, MARQ Captain, MARQ Commander, MARQ Driver, MARQ Expedition, MARQ Golfer
  Font Descent[-5, -6, -7, -8, -8, -13, -15, -21, -24]
  Font Height[12, 16, 18, 21, 23, 29, 35, 47, 54]
  

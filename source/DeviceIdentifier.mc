@@ -223,6 +223,7 @@ function configDevieTextParameters(device) {
 		case MARQCommander:
 		case MARQDriver:
 		case MARQExpedition:
+		case MARQgolfer:
 			fontDescent = [-5, -6, -7, -8, -8, -13, -15, -21, -24];
 			fontHeight = [12, 16, 18, 21, 23, 29, 35, 47, 54];
  			break;
