@@ -1,6 +1,43 @@
 using Toybox.System as Sys;
 
-enum {fr245m, fr645m, fr745, fr945, F5,	Fenix5X, Fenix5xPlus, Fenix5sPlus, Fenix6Pro, Fenix6xPro, Fenix6sPro, MARQAthlete, MARQAviator, MARQCaptain, MARQDriver, MARQExpedition, MARQAdventurer, MARQCommander, LegacyHeroCaptainMarvel, LegacyFirstAvenger, LegacySagaDarthVader, LegacySagaRey, Venu, VenuD, VenuSQM, VivoActive3D, Vivoactive3M, Vivoactive3MLTE, Vivoactive4, Vivoactive4s, D2Charlie, D2Delta, D2DeltaPX, D2DeltaS, DescentMK1, DescentMK2}		
+enum {
+fr245m, 
+fr645m, 
+fr745, 
+fr945, 
+F5,	
+Fenix5X, 
+Fenix5xPlus, 
+Fenix5sPlus, 
+Fenix6Pro, 
+Fenix6xPro, 
+Fenix6sPro, 
+MARQAthlete, 
+MARQAviator, 
+MARQCaptain, 
+MARQDriver, 
+MARQExpedition, 
+MARQAdventurer, 
+MARQCommander, 
+LegacyHeroCaptainMarvel, 
+LegacyFirstAvenger, 
+LegacySagaDarthVader, 
+LegacySagaRey, 
+Venu, 
+VenuD, 
+VenuSQM, 
+VivoActive3D, 
+Vivoactive3M, 
+Vivoactive3MLTE, 
+Vivoactive4, 
+Vivoactive4s, 
+D2Charlie, 
+D2Delta, 
+D2DeltaPX, 
+D2DeltaS, 
+DescentMK1, 
+DescentMK2
+}		
 
 
 function getDevice() {
@@ -152,12 +189,12 @@ function getDevice() {
 			return DescentMK2;	
 			break;
 		default:
-			Sys.println("--->> " + partNumber);
+			//Sys.println("--->> " + partNumber);
 			return 0;
 		
 	}
 }
-
+/*
 function configDevieTextParameters(device) {
 	switch (device) {
 	
@@ -166,8 +203,8 @@ function configDevieTextParameters(device) {
 		case Fenix5sPlus:
 		case Fenix5x:
 		case Fenix5xPlus:
-			fontDescent[-6, -6, -7, -8, -7, 0, -1, -1, -1];
-			fontHeight[17, 17, 18, 21, 25, 28, 37, 53, 60];
+			fontDescent = [-6, -6, -7, -8, -7, 0, -1, -1, -1];
+			fontHeight = [17, 17, 18, 21, 25, 28, 37, 53, 60];
 			break;
  		
  		case fr245m:
@@ -188,7 +225,7 @@ function configDevieTextParameters(device) {
 		case D2Delta:
 		case D2DeltaPX:
 		case D2DeltaS:
-		case DescentMK1:,
+		case DescentMK1:
 			fontDescent = [-6, -6, -7, -8, -8, -1, -1, -1, -1];
 			fontHeight = [17, 17, 17, 21, 23, 27, 37, 53, 59];
 			break; 
@@ -221,8 +258,8 @@ function configDevieTextParameters(device) {
  
 		 case Venu:
 		 case VenuD:
-			 fontDescent[-7, -9, -10, -11, -13, -14, -16, -21, -25];
-			 fontHeight[21, 26, 29, 35, 36, 46, 54, 82, 96];
+			 fontDescent = [-7, -9, -10, -11, -13, -14, -16, -21, -25];
+			 fontHeight = [21, 26, 29, 35, 36, 46, 54, 82, 96];
 			 break;
  
 		 case Vivoactive3D:
@@ -232,12 +269,12 @@ function configDevieTextParameters(device) {
 			 fontHeight = [13, 17, 17, 19, 19, 22, 26, 43, 53];
  
 		 case VenuSQM:
-			 fontDescent[-5, -5, -5, -5, -7, -8, -11, -13, -17];
-			 fontHeight[19, 19, 19, 19, 20, 20, 26, 31, 40];
+			 fontDescent = [-5, -5, -5, -5, -7, -8, -11, -13, -17];
+			 fontHeight = [19, 19, 19, 19, 20, 20, 26, 31, 40];
  
 	}
 }
-
+*/
 
 var deviceNames = [
 "245M",
