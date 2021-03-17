@@ -13,6 +13,7 @@ class FontBook {
 	
 	var fontDescentStore;
 	var fontHeightStore;
+	
 	function initialize() {
 		fontSize = 0;
 		testText = ["TEST WORD", 888];
@@ -38,7 +39,6 @@ class FontBook {
 	
 	function changeDescent(value) {
 		descent += value;
-		
 	}
 	
 	function changeDeviceDescent() {
@@ -105,6 +105,31 @@ class FontBook {
 		Sys.println(" Font Descent" + fontDescentStore + "\n Font Height" + fontHeightStore);
 	}
 	
+	function fontName() {
+		switch(fontSize) {
+			case 0:
+				return "XTINY";
+				break;
+			case 1:
+				return "TINY";
+			case 2:
+				return "SMALL";
+			case 3:
+				return "MEDIUM";
+			case 4:
+				return "LARGE";
+			case 5:
+				return "NUMBER_MILD";
+			case 6:
+				return "NUMBER_MEDIUM";
+			case 7:
+				return "NUMBER_HOT";
+			case 8:
+				return "NUMBER_THAI_HOT";
+			default:
+				return "--";
+		}
+	}
 	
 	
 
