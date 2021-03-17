@@ -29,6 +29,7 @@
             <iq:product id="marqcommander"/>
             <iq:product id="marqdriver"/>
             <iq:product id="marqexpedition"/>
+            <iq:product id="marqgolfer"/>
             <iq:product id="venu"/>
             <iq:product id="venud"/>
             <iq:product id="venusqm"/>
