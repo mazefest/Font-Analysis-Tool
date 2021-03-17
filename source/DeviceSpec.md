@@ -20,7 +20,7 @@
  Font Descent[-4, -5, -7, -8, -9, -10, -11, -21, -25]
  Font Height[13, 18, 19, 22, 25, 31, 35, 48, 55]
  
- #Descent MK2
+ #Descent MK2, ENDURO
  Font Descent[-4, -8, -8, -9, -9, -16, -20, -25, -29]
  Font Height[13, 19, 21, 25, 27, 33, 40, 55, 62]
  
