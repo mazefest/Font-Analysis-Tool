@@ -68,7 +68,7 @@ class FontAnalysisToolView extends WatchUi.View {
     		dc.getWidth() * .5,
     		dc.getHeight() * .65,
     		0,
-    		"FontSize: " + fontBook.fontSize,
+    		"FontSize: " + fontBook.fontName(),
         	Gfx.TEXT_JUSTIFY_CENTER
 		); 
     }
