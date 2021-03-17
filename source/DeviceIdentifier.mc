@@ -19,6 +19,7 @@ MARQDriver,
 MARQExpedition, 
 MARQAdventurer, 
 MARQCommander, 
+MARQgolfer,
 LegacyHeroCaptainMarvel, 
 LegacyFirstAvenger, 
 LegacySagaDarthVader, 
@@ -117,7 +118,9 @@ function getDevice() {
 		case "006-B3249-00":
 			return MARQCommander;	
 			break;
-
+		case "006-B3739-00":
+			return MARQGolfer;
+			break;
 		case "006-B3500-00":
 			return LegacyHeroCaptainMarvel;
 			break;
