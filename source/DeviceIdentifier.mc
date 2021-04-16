@@ -19,7 +19,7 @@ MARQDriver,
 MARQExpedition, 
 MARQAdventurer, 
 MARQCommander, 
-MARQgolfer,
+MARQGolfer,
 LegacyHeroCaptainMarvel, 
 LegacyFirstAvenger, 
 LegacySagaDarthVader, 
@@ -195,6 +195,9 @@ function getDevice() {
 		case "006-B3638-00":
 			return Enduro;
 			break;
+		case "006-B3869-00"
+			return fr55;
+			break;
 		default:
 			Sys.println("--->> " + partNumber);
 			return 0;
@@ -321,6 +324,7 @@ var deviceNames = [
 "D2 Delta S",
 "Descent MK1",	
 "Descent MK2",
-"Enduro"
+"Enduro",
+"55"
 ];
 
