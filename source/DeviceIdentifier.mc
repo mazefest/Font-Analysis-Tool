@@ -194,6 +194,7 @@ function getDevice() {
 			break;
 		case "006-B3638-00":
 			return Enduro;
+			break;
 		default:
 			Sys.println("--->> " + partNumber);
 			return 0;
