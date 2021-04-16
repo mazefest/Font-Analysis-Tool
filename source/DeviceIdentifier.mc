@@ -1,12 +1,14 @@
 using Toybox.System as Sys;
 
 enum {
+fr55, 
 fr245m, 
 fr645m, 
 fr745, 
 fr945, 
 F5,	
 Fenix5X, 
+Fenix5Plus, 
 Fenix5xPlus, 
 Fenix5sPlus, 
 Fenix6Pro, 
@@ -63,7 +65,7 @@ function getDevice() {
 			return fr945;	 
 			break;
 		
-		case "006-B3110-00": 
+		case "006-B2697-00": 
 			return F5; 	 
 			break;
 
@@ -71,6 +73,10 @@ function getDevice() {
 			return Fenix5X;
 			break;
 
+		case "006-B3110-00": 
+			return Fenix5Plus;  
+			break;
+		
 		case "006-B3111-00": 
 			return Fenix5xPlus;  
 			break;
@@ -195,7 +201,7 @@ function getDevice() {
 		case "006-B3638-00":
 			return Enduro;
 			break;
-		case "006-B3869-00"
+		case "006-B3869-00":
 			return fr55;
 			break;
 		default:
@@ -288,12 +294,14 @@ function configDevieTextParameters(device) {
 */
 
 var deviceNames = [
+"55",
 "245M",
 "645M",
 "745",
 "945",	 
 "F5",	 
 "Fenix 5X",
+"Fenix 5 Plus",
 "Fenix 5x Plus",
 "Fenix 5s Plus",
 "Fenix 6 Pro",	  
@@ -325,6 +333,5 @@ var deviceNames = [
 "Descent MK1",	
 "Descent MK2",
 "Enduro",
-"55"
 ];
 

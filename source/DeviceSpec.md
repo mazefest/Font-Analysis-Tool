@@ -1,4 +1,4 @@
- #FR 645M, Fenix 5 Plus, Fenix 5s Plus, Fenix 5x, Fenix 5x Plus
+ #FR 645M, Fenix 5 Plus, Fenix 5 Plus, Fenix 5s Plus, Fenix 5x, Fenix 5x Plus
  Font Descent[-6, -6, -7, -8, -7, 0, -1, -1, -1]
  Font Height[17, 17, 18, 21, 25, 28, 37, 53, 60]
  
