@@ -42,4 +42,16 @@
  #FR 55
  Font Descent[-5, -6, -6, -8, -8, -10, -21, -24, -24]
  Font Height[14, 16, 17, 21, 21, 21, 46, 51, 72
- 
+
+# Low Mem Devices (64.4kb)
+#FR 230, FR 235, FR 630
+ Font Descent[-5, -5, -5, -7, -7, -6, -9, -12, -19]
+ Font Height[12, 12, 12, 14, 20, 21, 33, 42, 73]
+
+#Fenix 3, Fenix 3 HR, D2 Bravo, D2 Bravo Titantium
+ Font Descent[-5, -6, -6, -7, -9, -8, -14, -19, -26]
+ Font Height[11, 13, 16, 18, 23, 21, 40, 54, 75]
+
+ #FR 920XT
+ Font Descent[-2, -2, -2, -2, -2, -2, -2, -2, -2]
+ Font Height[13, 13, 13, 18, 21, 21, 33, 39, 64]
