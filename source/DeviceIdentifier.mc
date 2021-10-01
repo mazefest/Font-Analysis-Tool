@@ -1,9 +1,11 @@
 using Toybox.System as Sys;
 
+// Uses device model number to identify devices. 
+// APAC Means
 
 function getDevice() {
 	var partNumber = Sys.getDeviceSettings().partNumber;
-	
+	Sys.println(partNumber);	
 	switch (partNumber) {
 	
 		case "006-B3077-00":
@@ -164,6 +166,21 @@ function getDevice() {
 		case "006-B2156-00":
 			return fr630;
 			break;
+		case "006-B2157-00":
+			return fr230fr235;
+			break;
+		case "006-B2050-00":
+			return fenix3;
+			break;
+		case "006-B2262-00":
+			return d2Bravo;
+			break;
+		case "006-B2547-00":
+			return d2Bravo_titanium;
+			break;
+		case "006-B1765-00":
+			return fr920xt;
+			break;
 		default:
 			Sys.println("--->> " + partNumber);
 			return 0;
@@ -244,54 +261,27 @@ function configDevieTextParameters(device) {
 		 case Vivoactive3MLTE:
 			 fontDescent = [-6, -9, -9, -10, -10, -11, -14, -20, -25];
 			 fontHeight = [13, 17, 17, 19, 19, 22, 26, 43, 53];
- 
+			break;
 		 case VenuSQM:
 			 fontDescent = [-5, -5, -5, -5, -7, -8, -11, -13, -17];
 			 fontHeight = [19, 19, 19, 19, 20, 20, 26, 31, 40];
- 
+			 break;
+		case fr230fr235:
+		case fr630:
+		case fr735xt:
+			fontDescent = [-5, -5, -5, -7, -7, -6, -9, -12, -19];
+			fontHeight = [12, 12, 12, 14, 20, 21, 33, 42, 73];
+			break;
+		case fenix3:
+		case d2Bravo;
+		case d2Bravo_titanium:
+			fontDescent = [-5, -6, -6, -7, -9, -8, -14, -19, -26];
+			fontHeight = [11, 13, 16, 18, 23, 21, 40, 54, 75];
+			break;
+		case fr920xt:
+			fontDescent = [-2, -2, -2, -2, -2, -2, -2, -2, -2];
+			fontHeight = [13, 13, 13, 18, 21, 21, 33, 39, 64];
+			break;
 	}
 }
 */
-
-var deviceNames = [
-"55",
-"245M",
-"645M",
-"745",
-"945",	 
-"F5",	 
-"Fenix 5X",
-"Fenix 5 Plus",
-"Fenix 5x Plus",
-"Fenix 5s Plus",
-"Fenix 6 Pro",	  
-"Fenix 6x Pro", 
-"Fenix 6s Pro",
-"MARQ Athlete",
-"MARQ Aviator",	
-"MARQ Captain",
-"MARQ Driver",
-"MARQ Expedition",	
-"MARQ Adventurer",
-"MARQ Commander",
-"Legacy Hero Captain Marvel",
-"Legacy First Avenger",
-"Legacy Saga Darth Vader",	
-"Legacy Saga Rey",
-"Venu",
-"Venu D",
-"Venu SQM",
-"Vivo Active 3D",	
-"Vivoactive 3M",
-"Vivoactive 3M LTE",
-"Vivoactive 4",
-"Vivoactive 4s",
-"D2 Charlie",
-"D2 Delta",
-"D2 Delta PX",	
-"D2 Delta S",
-"Descent MK1",	
-"Descent MK2",
-"Enduro",
-];
-
