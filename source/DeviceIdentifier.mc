@@ -161,6 +161,9 @@ function getDevice() {
 		case "006-B3869-00":
 			return fr55;
 			break;
+		case "006-B2156-00":
+			return fr630;
+			break;
 		default:
 			Sys.println("--->> " + partNumber);
 			return 0;
